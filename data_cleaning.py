@@ -1,9 +1,9 @@
 import pandas as pd
 import numpy as np
 
-data = {"Name": ["Bradd" , np.nan , "Scarlet" , "Mike" , "Margot" , np.nan],
-        "Age": [58 , 45 , 37 , np.nan , 31 , np.nan],
-        "profession": [np.nan , "Actor" , "Engineer" , "Journalist" , np.nan , np.nan]}
+data = {"Name" : ["Bradd" , np.nan , "Scarlet" , "Mike" , "Margot" , np.nan],
+        "Age" : [58 , 45 , 37 , np.nan , 31 , np.nan],
+        "profession" : [np.nan , "Actor" , "Engineer" , "Journalist" , np.nan , np.nan]}
 
 df = pd.DataFrame(data)
 
